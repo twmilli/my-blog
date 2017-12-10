@@ -1,47 +1,36 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import './index.scss';
+import banner from '../img/banner.png';
+import { Github, Instagram, Mail, Facebook, Globe } from 'react-feather';
 
-const IndexPage = ({data}) => {
-    const edges = data.allMarkdownRemark.edges;
-    const posts = edges.map(({node}) => {
-        const {title, path} = node.frontmatter;
-        console.log(node);
-        return (
-            <li key={node.id}>
-                <Link to={path}>{title}</Link>
-            </li>
-        )
-    });
-    return(
-        <div>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        {posts}
-        </div>
-    );
-}
+const IndexPage = () => (
+  <div className="index-container">
+    <div className="banner">
+      <img src={banner} alt="banner"/>
+      <div className="overlay quote">
+      Create something everyday.
+      </div>
+      <Link to='/blog' className="overlay blog-btn">BLOG</Link>
+    </div>
+    <div className="icon-container">
+      <a href="https://github.com/twmilli">
+        <Github />
+      </a>
+      <a href="https://www.instagram.com/taytaytrey/">
+        <Instagram />
+      </a>
+      <a href="mailto:twm013@bucknell.edu">
+        <Mail />
+      </a>
+      <a href="https://www.facebook.com/taylor.milliman1">
+        <Facebook />
+      </a>
+      <a href="http://linkedin.com/taylor-milliman">
+        <Globe />
+      </a>
+    </div>
+  </div>
+)
 
 export default IndexPage;
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-        limit: 10
-        sort: { fields: [frontmatter___date], order: DESC}
-        filter: { frontmatter: {published: {eq: true}}}
-      ){
-        edges {
-          node {
-            id
-            frontmatter {
-              title
-              path
-              date
-              published
-            }
-          }
-        }
-      }
-  }
-`

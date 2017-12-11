@@ -1,0 +1,59 @@
+$light-accent: #92A1B1;
+$purple-accent: #8000FF;
+$dark-accent: #415469;
+
+.email-form-wrap{
+    margin: auto;
+    #mc-embedded-subscribe{
+        margin: auto;
+        background-image: repeating-linear-gradient(45deg, #f0f1f4, #f0f1f4 1px, white 1px, white 6px) !important;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 2px;
+        padding: 1rem 1.75rem;
+        line-height: 1 !important;
+        border: 1px solid $light-accent;
+        border-radius: 2px;
+        display: block;
+        &:hover{
+          cursor: pointer;
+          color: $purple-accent;
+          border-color: $purple-accent;
+        }
+    }
+
+    #email-input{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        display: block;
+        border: 1px solid $light-accent;
+        border-radius: 2px;
+        padding-right: 20%;
+    
+        &:focus{
+          outline: none;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+@media(max-width : 640px){
+
+    .email-form-wrap{
+        #email-input{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            font-size: .8rem;
+        }
+
+        #mc-embedded-subscribe{
+            font-size: 0.8rem;
+            padding: 0.5rem .9rem;
+        }
+    }
+}

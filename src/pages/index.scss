@@ -71,3 +71,59 @@ $dark-accent: #415469;
     text-align: center;
     border-bottom: dashed $dark-accent 2px;
 }
+
+@media(max-width : 1024px){
+    .banner{
+        img{
+            width: 105%;
+        }
+
+        .overlay.quote{
+            font-size: 1.5rem;
+            top: 3rem;
+        }
+    
+        .overlay.blog-btn{
+            top: 12rem;
+            font-size: 1.3rem;
+        }
+    }
+
+
+    .icon-container{
+        width: 18%;
+        svg{
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+    #newsletter-heading{
+        font-size: 1rem;
+        width: 250px;
+    }
+}
+
+@media(max-width : 640px){
+    .banner{
+        img{
+            width: 108%;
+        }
+        .overlay.quote{
+            display: none;
+        }
+    
+        .overlay.blog-btn{
+            top: 4rem;
+            font-size: 1.2rem;
+        }
+    }
+
+    .icon-container{
+        width: 30%;
+    }
+
+    #newsletter-heading{
+        font-size: .8rem;
+        width: 200px;
+    }
+}

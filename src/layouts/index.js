@@ -16,12 +16,12 @@ const Header = () => (
       </h1>
     </nav>
       <nav className='Navigation-right'>
-        <Link to='/' activeStyle = {{ color: '#415469' }}>Home</Link>
-        <Link to='/blog'>Blog</Link>
-        <Link to='/portfolio'>Portfolio</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/resume'>Resume</Link>
-        <Link to='/reading'>Reading</Link>
+        <Link to='/' activeStyle = {{ color: '#415469' }} exact>Home</Link>
+        <Link to='/blog' activeStyle = {{ color: '#415469' }}>Blog</Link>
+        <Link to='/portfolio' activeStyle = {{ color: '#415469' }}>Portfolio</Link>
+        <Link to='/about' activeStyle = {{ color: '#415469' }}>About</Link>
+        <Link to='/resume' id='resume' activeStyle = {{ color: '#415469' }}>Resume</Link>
+        <Link to='/reading' activeStyle = {{ color: '#415469' }}>Reading</Link>
       </nav>
     </div>
   </div>

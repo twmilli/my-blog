@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import './index.scss';
 import banner from '../img/banner.png';
 import { Github, Instagram, Mail, Facebook, Globe } from 'react-feather';
+import EmailNewsletter from './components/email-newsletter.js';
 
 const IndexPage = () => (
   <div className="index-container">
@@ -34,6 +35,7 @@ const IndexPage = () => (
     <div id='newsletter-heading'>
       Sign up for my weekly newsletter
     </div>
+    <EmailNewsletter />
   </div>
 )
 

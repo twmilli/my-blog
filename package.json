@@ -11,7 +11,8 @@
     "gatsby-plugin-sass": "^1.0.14",
     "gatsby-source-filesystem": "^1.5.9",
     "gatsby-transformer-remark": "^1.7.23",
-    "react-feather": "^1.0.7"
+    "react-feather": "^1.0.7",
+    "react-mailchimp-subscribe": "^1.0.3"
   },
   "keywords": [
     "gatsby"

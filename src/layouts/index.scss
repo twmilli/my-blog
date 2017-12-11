@@ -2,9 +2,11 @@
 $font-stack: 'Fjord One', serif;
 $dark-accent: #415469;
 $light-accent: #92A1B1;
+$bg-color: #FAFBFC;
 
 body{
   font-family:  $font-stack;
+  background-color: $bg-color;
 }
 
 a, a:hover, a:active, a:visited{
@@ -45,5 +47,32 @@ a, a:hover, a:active, a:visited{
     position: relative;
     color: $light-accent;
     font-weight: normal;
+  }
+}
+
+@media(max-width : 1024px){
+  body{
+    background-color: white;
+  }
+  .Navigation-left{
+    display: block;
+    text-align: center;
+  }
+  .Navigation-right{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 6rem;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .Navigation-body{
+    padding-bottom: 4rem;
+  }
+}
+
+@media(max-width: 640px){
+  #resume{
+    display: none;
   }
 }

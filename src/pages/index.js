@@ -30,6 +30,10 @@ const IndexPage = () => (
         <Globe />
       </a>
     </div>
+
+    <div id='newsletter-heading'>
+      Sign up for my weekly newsletter
+    </div>
   </div>
 )
 

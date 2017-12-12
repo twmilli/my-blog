@@ -1,0 +1,135 @@
+$dark-accent: #415469;
+$light-accent: #92A1B1;
+$bg-color: #FAFBFC;
+$purple-accent: #8000FF;
+$default-margin: 2.2rem;
+
+.blog-preview-container{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background: white;
+    border: 1px solid #DCE4EC;
+    border-radius: 9px;
+    box-shadow: inset 0 -1px #dae4ed;
+    padding: 60px 100px;
+    margin-bottom: 4rem;
+
+   .blog-tag{
+        background: #EAE6FD;
+        border-radius: 100px;
+        font-size: 12px;
+        color: $purple-accent;
+        letter-spacing: 1.2px;
+        width: 150px;
+        text-align: center;
+        height: 30px;
+        vertical-align: center;
+        line-height: 30px;
+        text-transform: uppercase;
+   }
+
+   .blog-title{
+       font-weight: normal;
+       font-size: 36px;
+       margin-bottom: 1rem;
+   }
+
+   .blog-date{
+       color: $light-accent;
+       margin-bottom: $default-margin;
+   }
+
+   .read-more-link{
+       color: $purple-accent;
+       font-size: 18px;
+       height: 30px;
+       position: relative;
+
+       .read-arrow{
+           position: absolute;
+           bottom: -2.25px;
+           left: 90px;
+       }
+   }
+
+   .read-more-container{
+       display: inline-block;
+       span{
+           margin-top: 8px;
+           display: block;
+           border-bottom: 2px solid $purple-accent;
+           width: 0%;
+       }
+       &:hover{
+           span{
+                animation: underline 500ms ease-in-out;
+                width: 112px;
+           }
+       }
+   }
+
+   .blog-preview{
+       font-size: 16px;
+       margin-bottom: $default-margin;
+       line-height: 22px;
+   }
+}
+
+@keyframes underline {
+    from {
+        width: 0%;
+    }
+    to{
+        width: 112px;
+    }
+}
+
+@media(max-width : 1024px){
+    .blog-preview-container{
+        margin-top: 0;
+        width: 80%;
+        height: auto;
+        background: white;
+        border: none;
+        box-shadow: none;
+        padding: 1rem;
+        border-radius: 0px;
+        border-bottom: 1px solid #DCE4EC;
+    }
+
+    .Navigation-right{
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #DCE4EC;
+    }
+}
+
+@media(max-width : 640px){
+    .blog-preview-container{
+        .blog-title{
+            font-size: 24px;
+        }
+
+        .blog-tag{
+            font-size: 10px;
+        }
+
+        .blog-date{
+            font-size: 14px;
+        }
+
+        .blog-preview{
+            font-size: 12px;
+        }
+
+        .read-more-link{
+            font-size: 16px;
+
+            .read-arrow{
+                height: 16px;
+                bottom: 1px;
+                left: 80px;
+            }
+        }
+    }
+}

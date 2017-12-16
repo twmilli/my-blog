@@ -1,0 +1,68 @@
+$dark-accent: #415469;
+$light-accent: #92A1B1;
+$purple-accent: #8000FF;
+$default-margin: 2.2rem;
+.Navigation-blog-left{
+    color: $dark-accent;
+    position: relative;
+    margin-left: 2rem;
+    display: flex;
+    flex: 1;
+    a, a:visited{
+        color: $dark-accent !important;
+        .arrow-back{
+            position: absolute;
+            bottom: -2.25px;
+            left: -30px;
+        }
+
+        &:hover, :active{
+            color: $purple-accent !important;
+        }
+    }
+}
+
+.Navigation-blog{
+    position: relative;
+    //margin-top: -1.5rem;
+    z-index: 10;
+  }
+  
+  .Navigation-blog-body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    margin: auto;
+  }
+  
+  .Navigation-blog-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: $default-margin;
+  }
+
+  .fb-container{
+        position: relative;
+      &:hover{
+          color: $purple-accent;
+          cursor: pointer;
+      }
+
+      color: #3B5998 + 50;
+
+      &:active, :focus{
+        outline: 0;
+        border: none;
+        -moz-outline-style: none
+      }
+      span{
+          padding-right: 0.5rem;
+      }
+      svg{
+        position: absolute;
+        bottom: -1px;
+      }
+  }

@@ -4,15 +4,18 @@
   "version": "1.0.0",
   "author": "Taylor Milliman <twm013@bucknell.edu>",
   "dependencies": {
+    "dateformat": "^3.0.2",
     "eslint": "^4.12.1",
     "gatsby": "^1.9.127",
     "gatsby-link": "^1.6.30",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.14",
+    "gatsby-remark-images": "^1.5.35",
     "gatsby-source-filesystem": "^1.5.9",
     "gatsby-transformer-remark": "^1.7.23",
     "react-feather": "^1.0.7",
-    "react-mailchimp-subscribe": "^1.0.3"
+    "react-mailchimp-subscribe": "^1.0.3",
+    "react-share": "^1.18.0"
   },
   "keywords": [
     "gatsby"

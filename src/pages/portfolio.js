@@ -10,7 +10,7 @@ const Portfolio = () => {
             <div className="portfolio-link-wrapper">
                 <a
                 href="https://github.com/twmilli"
-                className='portfolio-button-link'
+                className='portfolio-button-link github'
                 target="_blank">
                 <Github />
                 Visit my Github
@@ -23,6 +23,9 @@ const Portfolio = () => {
                 download="resume.pdf">
                 Download my Resume
                 </a>
+            </div>
+            <div id="portfolio-end-text">
+                Let's build something cool together :)
             </div>
         </div>
     );

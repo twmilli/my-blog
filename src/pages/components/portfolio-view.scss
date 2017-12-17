@@ -1,15 +1,37 @@
+$light-accent: #92A1B1;
+$purple-accent: #8000FF;
+$dark-accent: #415469;
+$default-margin: 2.2rem;
+
 .portfolio-project-link-container{
     flex: 1;
     .portfolio-projects{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 550px;
+        height: 535px;
         font-size: 26px;
         margin-left: 1.6rem;
     
+        span{
+            margin-top: 8px;
+            display: block;
+            border-bottom: 2px solid $purple-accent;
+            width: 0%;
+        }
+
+        .portfolio-project-link{
+            display: table;
+        }
+    
         .portfolio-project-link:hover{
             cursor: pointer;
+            color: $purple-accent !important;
+
+            span{
+                animation: underline1 600ms ease-in-out;
+                width: 100%;
+           }
         }
     }
 }
@@ -28,7 +50,6 @@
         box-shadow: inset 0 -1px #dae4ed;
         img{
             max-width: 900px;
-            max-height: 450px;
             border-radius: 2px;
             box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
         }
@@ -36,5 +57,84 @@
         img:hover{
             filter: brightness(60%);
         }
+    }
+}
+
+@keyframes underline1 {
+    from {
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1250px){
+    .portfolio-component-view-wrapper{
+        .portfolio-component-image{
+            img{
+                max-width: 700px;
+            }
+        }
+    }
+
+    .portfolio-project-link-container{
+        .portfolio-projects{
+            height: 415px;
+            font-size: 22px;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+    .portfolio-component-view-wrapper{
+        .portfolio-component-image{
+            margin: auto;
+            img{
+                max-width: 100%;
+                margin-right: 0;
+            }
+            padding: 0;
+            border: none;
+            box-shadow: none;
+        }
+    }
+
+    .portfolio-project-link-container{
+        .portfolio-projects{
+            text-align: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            display: flex;
+            font-size: 16px;
+            height: 4rem;
+            justify-content: space-around;
+            .portfolio-project-link{
+                padding: 0 0.75rem;
+            }
+        }
+        margin-bottom: 1rem;
+    }
+
+    .portfolio-component-view-wrapper{
+        display: block;
+    }
+}
+
+@media(max-width: 640px){
+
+    .portfolio-project-link-container{
+        .portfolio-projects{
+            height: 4.5rem;
+            span{
+                margin-top: 3px;
+                margin-bottom: 3px;
+                border-bottom: 1px solid $purple-accent;
+            }
+        }
+    }
+
+    .portfolio-component-view-wrapper{
+        display: block;
     }
 }

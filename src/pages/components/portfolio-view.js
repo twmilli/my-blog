@@ -38,6 +38,7 @@ export default class PortfolioView extends React.Component{
             onClick = {() => this.selectProject(i)}
             style = {{color: this.state.selectedIndex === i ? '#415469' : '#92A1B1' }}>
                 {project.name}
+                <span></span>
             </div>
         ));
         return(

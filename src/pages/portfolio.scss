@@ -30,11 +30,14 @@ $default-margin: 2.2rem;
         width: 100%;
         height: 100%;
         position: relative;
-        padding-left: 1.5rem;
         svg{
             position: absolute;
             left: 5rem;
             top: 0.7rem;
+        }
+
+        &.github{
+            padding-left: 1.5rem;
         }
     }
 
@@ -44,4 +47,40 @@ $default-margin: 2.2rem;
             color: $purple-accent;
         }
     }
+}
+
+#portfolio-end-text{
+    margin: 4rem 0;
+    text-align: center;
+    font-family: Fjord-One;
+    font-size: 14px;
+    color: $light-accent;
+}
+
+@media(max-width: 1024px){
+    .portfolio-link-wrapper{
+        width: 250px;
+        height: 40px;
+        line-height: 40px;
+    
+        .portfolio-button-link{
+            font-size: 16px;
+            svg{
+                position: absolute;
+                left: 3.3rem;
+                top: 0.5rem;
+            }
+
+            &.github{
+                padding-left: 1.1rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 640px){
+    #portfolio-end-text{
+        font-size: 11px;
+    }
+    
 }

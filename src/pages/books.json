@@ -1,0 +1,292 @@
+{
+"read": [
+    {
+        "title": "The Prophet",
+        "link": "http://a.co/7LMYQC8",
+        "author": "Kahlil Gibran",
+        "date": "12-17"
+    },
+    {
+        "title": "Seeking Wisdom: From Darwin to Munger",
+        "link": "http://a.co/9K4FXba",
+        "author": "Peter Bevelin",
+        "date": "12-17"
+    },
+    {
+        "title": "Moneyball",
+        "link": "http://a.co/3xTAi7l",
+        "author": "Michael Lewis",
+        "date": "10-17"
+    },
+    {
+        "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "link": "http://a.co/9lCd1fS",
+        "author": "Ashlee Vance",
+        "date": "9-17"
+    },
+
+    {
+        "title": "The World Changer's Handbook",
+        "link": "https://www.amazon.com/World-Changers-Handbook-Creating-Impactful/dp/1545082693",
+        "author": "Zachary Jones",
+        "date": "8-17"
+    },
+    {
+        "title": "Steal Like an Artist",
+        "link": "https://www.amazon.com/Steal-Like-Artist-Things-Creative/dp/0761169253",
+        "author": "Austin Kleon",
+        "date": "7-17"
+    },
+    {
+        "title": "Total Recall: My Unbelieveably True Life Story",
+        "link": "https://www.audible.com/pd/Bios-Memoirs/Total-Recall-Audiobook/B009GLC5ES",
+        "author": "Arnold Schwarzenegger",
+        "date": "6-17"
+    },
+    {
+        "title": "Born for This",
+        "link": "http://a.co/3RNrV9O",
+        "author": "Chris Guillebeau",
+        "date": "5-17"
+    },
+    {
+        "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+        "link": "http://a.co/06T1mGd",
+        "author": "William Braxton Irvine",
+        "date": "5-17"
+    },
+    {
+        "title": "Doing Good Better",
+        "link": "http://a.co/irS3xCU",
+        "author": "William MacAskill",
+        "date": "3/17"
+    },
+    {
+        "title": "Heat",
+        "link": "http://a.co/9vXZc0I",
+        "author": "Bill Buford",
+        "date": "3-17"
+    },
+    {
+        "title": "Search inside yourself",
+        "link": "http://a.co/dX2tBLE",
+        "author": "Chade-Meng Tan",
+        "date": "2-17"
+    },
+    {
+        "title": "The Power of Broke",
+        "link": "http://a.co/foZ4Tnw",
+        "author": "Daymond John",
+        "date": "2-17"
+    },
+    {
+        "title": "Tools of Titans",
+        "link": "http://a.co/7QZIslo",
+        "author": "Tim Ferriss",
+        "date": "1-17"
+    },
+    {
+        "title": "Shoe Dog",
+        "link": "http://a.co/iJIw2t2",
+        "author": "Phil Knight",
+        "date": "1-17"
+    },
+    {
+        "title": "Man's Search for Meaning",
+        "link": "http://a.co/cZYHtRs",
+        "author": "Viktor E. Frankl",
+        "date": "1-17"
+    },
+    {
+        "title": "Heroes of the Frontier",
+        "link": "http://a.co/bg5N89K",
+        "author": "Dave Eggers",
+        "date": "1-17"
+    },
+    {
+        "title": "Kite Runner",
+        "link": "http://a.co/7DjInFo",
+        "author": "Khaled Hosseini",
+        "date": "11-16"
+    },
+    {
+        "title": "Vagabonding",
+        "link": "http://a.co/9ER7RkB",
+        "author": "Rolf Potts",
+        "date": "11-16"
+    },
+    {
+        "title": "Deep Work",
+        "link": "http://a.co/ai87PZy",
+        "author": "Cal Newport",
+        "date": "11-17"
+    },
+    {
+        "title": "Give and Take",
+        "link": "http://a.co/9shirrU",
+        "author": "Adam Grant",
+        "date": "10-16"
+    },
+    {
+        "title": "The Road",
+        "link": "http://a.co/gBSmNX1",
+        "author": "Cormac McCarthy",
+        "date": "7-16"
+    },
+    {
+        "title": "Rich Dad Poor Dad",
+        "link": "http://a.co/iSE3dRo",
+        "author": "Robert Kiyosaki",
+        "date": "7-16"
+    },
+    {
+        "title": "Crush It!",
+        "link": "http://a.co/7ieLiAS",
+        "author": "Gary Vaynerchuck",
+        "date": "7-16"
+    },
+    {
+        "title": "The Art of the Deal",
+        "link": "http://a.co/fUCPjgc",
+        "author": "Donald Trump & Tony Shwartz",
+        "date": "6-16"
+    },
+    {
+        "title": "In the Unlikely Event",
+        "link": "http://a.co/1WkOPUc",
+        "author": "Judy Blume",
+        "date": "6-16"
+    },
+    {
+        "title": "Purple Cow",
+        "link": "http://a.co/27UCMBQ",
+        "author": "Seth Godin",
+        "date": "6-16"
+    },
+    {
+        "title": "The Game",
+        "link": "http://a.co/27UCMBQ",
+        "author": "Neil Strauss",
+        "date": "6-16"
+    },
+    {
+        "title": "Zeitoun",
+        "link": "http://a.co/27UCMBQ",
+        "author": "Dave Eggers",
+        "date": "5-16"
+    },
+    {
+        "title": "Moonwalking with Einstein",
+        "link": "http://a.co/61uIDcy",
+        "author": "Joshua Foer",
+        "date": "4-16"
+    },
+    {
+        "title": "Four Hour Work Week",
+        "link": "http://a.co/7hLUzuu",
+        "author": "Tim Ferriss",
+        "date": "4-16"
+    },
+    {
+        "title": "Zero to One",
+        "link": "http://a.co/6B3hGRN",
+        "author": "Peter Thiel",
+        "date": "3-16"
+    },
+    {
+        "title": "Let My People Go Surfing",
+        "link": "http://a.co/1vkjQGP",
+        "author": "Yvon Chouinard",
+        "date": "3-16"
+    },
+    {
+        "title": "The Casual Vacancy",
+        "link": "http://a.co/5tweTdq",
+        "author": "J.K Rowling",
+        "date": "2-16"
+    },
+    {
+        "title": "Ready Player One",
+        "link": "http://a.co/1d3cANC",
+        "author": "Ernest Cline",
+        "date": "2-16"
+    },
+    {
+        "title": "The Circle",
+        "link": "http://a.co/72YSMbO",
+        "author": "Dave Eggers",
+        "date": "1-16"
+    },
+    {
+        "title": "The Circle",
+        "link": "http://a.co/72YSMbO",
+        "author": "Dave Eggers",
+        "date": "1-16"
+    },
+    {
+        "title": "Mr. Penumbra's 24-Hour Bookstore",
+        "link": "http://a.co/0WSmI1I",
+        "author": "Robin Sloan",
+        "date": "1-16"
+    },
+    {
+        "title": "Choose Yourself",
+        "link": "http://a.co/8wpRhi8",
+        "author": "James Altucher",
+        "date": "11-15"
+    },
+    {
+        "title": "Nudge",
+        "link": "http://a.co/1GaAfDt",
+        "author": "Robert H. Thaler",
+        "date": "10-15"
+    }
+],
+"reading": [
+    {
+        "title": "The Art of Fielding",
+        "link": "http://a.co/jdeuLfp",
+        "author": "Chad Harbach "
+    },
+    {
+        "title": "Whiskey Tango Foxtrot",
+        "link": "http://a.co/e5j6uqx",
+        "author": "David Shafer"
+    }
+
+],
+
+"to_read": [
+    {
+        "title": "Sourdough",
+        "link": "http://a.co/duGmkVS",
+        "author": "Robin Sloan"
+    },
+    {
+        "title": "Radical Acceptance",
+        "link": "http://a.co/hnDPGFH",
+        "author": "Tara Brach"
+    },
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "link": "http://a.co/c8gxfn4",
+        "author": "Yuval Harari"
+    },
+    {
+        "title": "Stealing Fire",
+        "link": "http://a.co/hGW9JOY",
+        "author": "Steven Kotler & Jamie Wheal"
+    },
+    {
+        "title": "Stranger in a Strange Land",
+        "link": "http://a.co/g1HVTEV",
+        "author": "Robert A. Heinlein "
+    },
+    {
+        "title": "Zorba the Greek",
+        "link": "http://a.co/e4vCrLh",
+        "author": "Nikos Kaxantzakis"
+    }
+]
+}
+

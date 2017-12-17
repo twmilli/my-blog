@@ -1,0 +1,23 @@
+$light-accent: #92A1B1;
+$purple-accent: #8000FF;
+$dark-accent: #415469;
+$default-margin: 2.2rem;
+
+.reading-page-container{
+    margin: $default-margin;
+    color: $dark-accent;
+    h1{
+        margin-bottom: $default-margin;
+    }
+    li{
+        margin: 1rem;
+
+        a{
+          color: $purple-accent - 25;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}

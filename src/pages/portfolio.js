@@ -2,6 +2,7 @@ import React from 'react';
 import PortfolioView from './components/portfolio-view.js';
 import { Github } from 'react-feather';
 import './portfolio.scss';
+import resume from './taylor-milliman-resume.pdf';
 const Portfolio = () => {
     return(
         <div className="portfolio-container">
@@ -19,8 +20,8 @@ const Portfolio = () => {
             <div className="portfolio-link-wrapper">
                 <a
                 className='portfolio-button-link'
-                href="/files/resume.pdf"
-                download="resume.pdf">
+                href={resume}
+                download="taylor-milliman-resume.pdf">
                 Download my Resume
                 </a>
             </div>

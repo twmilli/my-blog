@@ -36,7 +36,8 @@ export default class PortfolioView extends React.Component{
         const projectLinks = projects.map((project, i) => (
             <div className="portfolio-project-link"
             onClick = {() => this.selectProject(i)}
-            style = {{color: this.state.selectedIndex === i ? '#415469' : '#92A1B1' }}>
+            style = {{color: this.state.selectedIndex === i ? '#415469' : '#92A1B1' }}
+            key={i}>
                 {project.name}
                 <span></span>
             </div>

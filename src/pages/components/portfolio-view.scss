@@ -1,0 +1,40 @@
+.portfolio-project-link-container{
+    flex: 1;
+    .portfolio-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 550px;
+        font-size: 26px;
+        margin-left: 1.6rem;
+    
+        .portfolio-project-link:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.portfolio-component-view-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .portfolio-component-image{
+        justify-content: flex-end;
+        padding: 40px;
+        background: #FFFFFF;
+        border: 1px solid #DCE4EC;
+        border-radius: 9px;
+        margin-right: 1rem;
+        box-shadow: inset 0 -1px #dae4ed;
+        img{
+            max-width: 900px;
+            max-height: 450px;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+        }
+
+        img:hover{
+            filter: brightness(60%);
+        }
+    }
+}

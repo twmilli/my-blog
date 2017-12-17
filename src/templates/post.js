@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import dateFormat from 'dateformat';
+import EmailNewsletter from '../pages/components/email-newsletter.js';
 import './post.scss';
 
 export default function Template({data}) {
@@ -12,6 +13,10 @@ export default function Template({data}) {
             <h1>{post.frontmatter.title}</h1>
             <time className="date">{dString}</time>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
+            <div id='newsletter-heading'>
+            Sign up for my weekly newsletter
+            </div>
+            <EmailNewsletter />
         </div>
     )
 };

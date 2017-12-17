@@ -1,0 +1,47 @@
+$light-accent: #92A1B1;
+$purple-accent: #8000FF;
+$dark-accent: #415469;
+$default-margin: 2.2rem;
+
+.portfolio-container{
+    h1{
+        text-align: center;
+        color: $dark-accent;
+        font-size: 42px;
+        margin-bottom: 3rem;
+        margin-top: -0.5rem;
+    }
+}
+
+.portfolio-link-wrapper{
+    width: 350px;
+    margin: 2.2rem auto;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #DCE4EC;
+    border-radius: 5px;
+
+    .portfolio-button-link{
+        display: block;
+        font-size: 22px;
+        color: $dark-accent;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-left: 1.5rem;
+        svg{
+            position: absolute;
+            left: 5rem;
+            top: 0.7rem;
+        }
+    }
+
+    &:hover{
+        border-color: $purple-accent;
+        .portfolio-button-link{
+            color: $purple-accent;
+        }
+    }
+}

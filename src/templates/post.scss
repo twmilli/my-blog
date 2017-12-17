@@ -3,24 +3,27 @@ $purple-accent: #8000FF;
 $light-accent: #92A1B1;
 $default-margin: 2.2rem;
 
-body{
-  background-color: white;
-}
 .post{
-  max-width: 800px;
-  margin: auto;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
   font-size: 1.2rem;
   word-spacing: 0.1em;
   color: $text-color;
-  margin-top: $default-margin;
+  padding-top: $default-margin;
+  background-color: white;
+}
+
+.post-container{
+  max-width: 800px;
+  margin: auto;
 
   time.date{
-    width: 100%;
+    display: block;
     text-align: center;
     color: $light-accent;
-    display: inline-block;
     font-size: 16px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   a, a:visited{

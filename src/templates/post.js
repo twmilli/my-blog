@@ -9,14 +9,16 @@ export default function Template({data}) {
     const dString = dateFormat(new Date(post.frontmatter.date), "mmmm dS, yyyy");
     return (
         <div className='post'>
-            <div className="blog-post-tag">{post.frontmatter.tag}</div>
-            <h1>{post.frontmatter.title}</h1>
-            <time className="date">{dString}</time>
-            <div dangerouslySetInnerHTML={{__html: post.html}} />
-            <div id='newsletter-heading'>
-            Sign up for my weekly newsletter
+            <div className="post-container">
+                <div className="blog-post-tag">{post.frontmatter.tag}</div>
+                <h1>{post.frontmatter.title}</h1>
+                <time className="date">{dString}</time>
+                <div dangerouslySetInnerHTML={{__html: post.html}} />
+                <div id='newsletter-heading'>
+                Sign up for my weekly newsletter
+                </div>
+                <EmailNewsletter />
             </div>
-            <EmailNewsletter />
         </div>
     )
 };

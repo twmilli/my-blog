@@ -1,13 +1,20 @@
 import React from 'react';
 import books from './books.json';
 import './reading.scss';
+import dateFormat from 'dateformat';
+
+function toDateString(dateStr){
+    const parts =  dateStr.split('-');
+    console.log(parts);
+    return dateFormat(new Date(parts[1], parts[0]-1), "mmm, yyyy");
+}
 
 const Reading = () => {
     const { read, reading, to_read } = books;
     const read_component = read.map((book) => (
         <li className="read-book">
             <a href={book.link}>{book.title}</a>
-            &nbsp; by {book.author} &nbsp; ({book.date})
+            &nbsp; by {book.author} &nbsp; ({toDateString(book.date)})
         </li>
     ));
 

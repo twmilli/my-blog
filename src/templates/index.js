@@ -4,17 +4,30 @@ import Link from 'gatsby-link';
 import './blog.scss';
 
 const NavLink = props => {
-    if (!props.test) {
-      return <Link to={props.url}>{props.text}</Link>;
-    } else {
-      return <span>{props.text}</span>;
-    }
+    return <Link to={props.url}>{props.text}</Link>;
 };
 
-const IndexPage = ({data, pathContext}) => {
-    const { group, index, first, last, pageCount } = pathContext;
+const BlogBottomNav = ({index, first, last, pageCount, pathPrefix}) => {
     const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString();
+    const next = (<div className="nextLink">
+                <NavLink test={last} url={pathPrefix + "/" + nextUrl} text="Go to Next Page" />
+                </div>);
+    const prev = (<div className="previousLink">
+                    <NavLink test={first} url={pathPrefix + "/" + previousUrl} text="Go to Previous Page" />
+            </div>);
+    return(
+    <div className="blog-bottom-nav-container">
+        Page {index} of {pageCount}
+        {!first ? prev : null}
+        {!last ? next : null}
+    </div>
+    )
+}
+
+const IndexPage = ({data, pathContext}) => {
+    console.log(pathContext);
+    const { group, index, first, last, pageCount, pathPrefix } = pathContext;
 
     const previewArray = group.map(({node}) => {
         return(
@@ -31,14 +44,22 @@ const IndexPage = ({data, pathContext}) => {
     return(
         <div className = 'blog-container'>
             {previewArray}
+
+            <BlogBottomNav
+            index={index}
+            first={first}
+            last={last}
+            pageCount={pageCount}
+            pathPrefix={pathPrefix}
+            />
+
         </div>
     );
 };
 
-export const postQuery = graphql`
+export const IndexQuery = graphql`
 query IndexBlogQuery {
     allMarkdownRemark(
-        limit: 10,
         filter: {frontmatter: {published: {eq: true}}},
         sort: { order: DESC, fields: [frontmatter___date] }) {
         edges {

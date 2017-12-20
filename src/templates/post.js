@@ -4,8 +4,8 @@ import dateFormat from 'dateformat';
 import EmailNewsletter from '../pages/components/email-newsletter.js';
 import './post.scss';
 
-export default function Template({data}) {
-    const { markdownRemark: post } = data;
+export default function Template(props) {
+    const { markdownRemark: post } = props.data;
     const dString = dateFormat(new Date(post.frontmatter.date), "mmmm dS, yyyy");
     return (
         <div className='post'>

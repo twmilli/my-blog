@@ -1,9 +1,51 @@
+$text-color: #42556A;
+$purple-accent: #8000FF;
+$light-accent: #92A1B1;
+$default-margin: 2.2rem;
+
+
 .blog-container{
     margin-top: 4rem;
+}
+
+.blog-bottom-nav-container{
+    margin: auto;
+    text-align: center;
+    color: $text-color;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 2.2rem;
+    .nextLink{
+        a{
+            color: $light-accent;
+            &:hover{
+                color: $purple-accent;
+            }
+        }
+    }
+
+    .previousLink{
+        a{
+            color: $light-accent;
+            &:hover{
+                color: $purple-accent;
+            }
+        }
+    }
 }
 
 @media(max-width: 1024px){
     .blog-container{
         margin-top: 0;
+    }
+    .blog-bottom-nav-container{
+        width: 75%;
+    }
+}
+
+@media(max-width: 640px){
+    .blog-bottom-nav-container{
+        width: 100%;
     }
 }

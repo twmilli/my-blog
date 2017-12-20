@@ -10,25 +10,23 @@ const NavLink = props => {
 const BlogBottomNav = ({index, first, last, pageCount, pathPrefix}) => {
     const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString();
-    const next = (<div className="nextLink">
-                <NavLink test={last} url={pathPrefix + "/" + nextUrl} text="Go to Next Page" />
-                </div>);
-    const prev = (<div className="previousLink">
-                    <NavLink test={first} url={pathPrefix + "/" + previousUrl} text="Go to Previous Page" />
-            </div>);
+    const next = (<NavLink test={last} url={pathPrefix + "/" + nextUrl} text="Go to Next Page" />);
+    const prev = (<NavLink test={first} url={pathPrefix + "/" + previousUrl} text="Go to Previous Page" />);
     return(
     <div className="blog-bottom-nav-container">
-        Page {index} of {pageCount}
-        {!first ? prev : null}
-        {!last ? next : null}
+        <div className="nextLink">
+            {!first ? prev : null}
+        </div>
+        <div className="page">page {index} of {pageCount}</div>
+        <div className="previousLink">
+            {!last ? next : null}
+        </div>
     </div>
     )
 }
 
 const IndexPage = ({data, pathContext}) => {
-    console.log(pathContext);
     const { group, index, first, last, pageCount, pathPrefix } = pathContext;
-
     const previewArray = group.map(({node}) => {
         return(
             <BlogPreview

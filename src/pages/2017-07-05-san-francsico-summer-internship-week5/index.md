@@ -3,7 +3,7 @@ path: '/interning-in-sf-week-5'
 title:  "Roadtripping to LAKE TAHOE"
 tag: 'Travel'
 published: true
-date: 2017-7-05
+date: '2017-07-05'
 ---
 
 It's tough to believe that the 4th of July has already come and gone and that I've been at my internship for 5 and 1/2 weeks (?!!).

@@ -1,7 +1,7 @@
 ---
 path: '/ignorance-as-an-advantage'
 title:  "Ignorance as an advantage"
-date:   2017-4-27
+date:   '2017-04-27'
 tag: 'Thoughts'
 published: true
 ---

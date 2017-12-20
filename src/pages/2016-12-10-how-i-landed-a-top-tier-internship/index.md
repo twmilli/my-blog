@@ -2,7 +2,7 @@
 path: '/how-i-landed-a-top-tier-internship'
 title:  "How I landed a top-tier tech internship by doing something I love"
 tag: "Career"
-date:   2016-12-10
+date:   '2016-12-10'
 published: true
 ---
 

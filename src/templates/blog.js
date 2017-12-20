@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPreview from '../pages/components/blog-preview';
+import BlogPreview from '../components/blog-preview';
 import Link from 'gatsby-link';
 import './blog.scss';
 
@@ -10,8 +10,8 @@ const NavLink = props => {
 const BlogBottomNav = ({index, first, last, pageCount, pathPrefix}) => {
     const previousUrl = index - 1 == 1 ? "" : (index - 1).toString();
     const nextUrl = (index + 1).toString();
-    const next = (<NavLink test={last} url={pathPrefix + "/" + nextUrl} text="Go to Next Page" />);
-    const prev = (<NavLink test={first} url={pathPrefix + "/" + previousUrl} text="Go to Previous Page" />);
+    const next = (<NavLink test={last} url={pathPrefix + "/" + nextUrl} text="Next Page" />);
+    const prev = (<NavLink test={first} url={pathPrefix + "/" + previousUrl} text="Previous Page" />);
     return(
     <div className="blog-bottom-nav-container">
         <div className="nextLink">

@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import './index.scss';
 import banner from '../img/banner.png';
 import { Github, Instagram, Mail, Facebook, Linkedin, Feather } from 'react-feather';
-import EmailNewsletter from './components/email-newsletter.js';
+import EmailNewsletter from '../components/email-newsletter.js';
 
 const IndexPage = () => (
   <div className="index-container">

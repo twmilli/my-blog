@@ -13,21 +13,21 @@ const Reading = () => {
     const { read, reading, to_read } = books;
     const read_component = read.map((book) => (
         <li className="read-book">
-            <a href={book.link}>{book.title}</a>
+            <a href={book.link} target="_blank">{book.title}</a>
             &nbsp; by {book.author} &nbsp; ({toDateString(book.date)})
         </li>
     ));
 
     const reading_component = reading.map((book) => (
         <li className="read-book">
-            <a href={book.link}>{book.title}</a>
+            <a href={book.link} target="_blank">{book.title}</a>
             &nbsp; by {book.author}
         </li>
     ));
 
     const to_read_component = to_read.map((book) => (
         <li className="read-book">
-            <a href={book.link}>{book.title}</a>
+            <a href={book.link} target="_blank">{book.title}</a>
             &nbsp; by {book.author}
         </li>
     ));

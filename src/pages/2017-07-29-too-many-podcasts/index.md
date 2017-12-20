@@ -1,5 +1,5 @@
 ---
-date: 2017-7-29
+date: '2017-07-29'
 path: '/too-many-podcasts'
 tag: 'Thoughts'
 title:  "Too many podcasts"

@@ -1,5 +1,5 @@
 ---
-date: 2017-6-18
+date: '2017-06-18'
 path: '/interning-in-sf-week-3'
 title:  "The Rooftop Views Continue (Interning in San Francisco Week 3)"
 tag: 'Life'

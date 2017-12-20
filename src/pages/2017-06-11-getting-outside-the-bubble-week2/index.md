@@ -2,7 +2,7 @@
 path: '/interning-in-sf-week-2'
 title:  "Getting outside the bubble (Interning in San Francisco Week 2)"
 tag: 'Life'
-date: 2017-6-11
+date: '2017-06-11'
 published: true
 ---
 

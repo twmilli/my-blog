@@ -27,11 +27,15 @@ const BlogNav = (props) => {
     if (typeof window !== 'undefined'){
         url = window.location.href;
     }
+    let backUrl = '/blog'
+    if (typeof window !== 'undefined' && typeof window.prev !== 'undefined'){
+        backUrl = window.prev;
+    }
     return(
         <div className='Navigation-blog'>
         <div className='Navigation-blog-body'>
             <nav className="Navigation-blog-left">
-                <Link to='/blog' activeStyle = {{ color: '#415469' }}>
+                <Link to={backUrl} activeStyle = {{ color: '#415469' }}>
                 <ArrowLeft className='arrow-back'/>
                 <div id='back'>Back to Blog</div>
                 </Link>

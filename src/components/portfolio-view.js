@@ -1,13 +1,13 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import smitten from '../../img/portfolio/smitten.png';
-import zombie from '../../img/portfolio/zombie.png';
-import simon from '../../img/portfolio/simon.png';
-import invest from '../../img/portfolio/invest.png';
-import voting from '../../img/portfolio/voting.png';
-import openbar from '../../img/portfolio/openbar.png';
-import meteorite from '../../img/portfolio/meteorite.png';
-import heat from '../../img/portfolio/heatmap.png';
+import smitten from '../img/portfolio/smitten.png';
+import zombie from '../img/portfolio/zombie.png';
+import simon from '../img/portfolio/simon.png';
+import invest from '../img/portfolio/invest.png';
+import voting from '../img/portfolio/voting.png';
+import openbar from '../img/portfolio/openbar.png';
+import meteorite from '../img/portfolio/meteorite.png';
+import heat from '../img/portfolio/heatmap.png';
 import './portfolio-view.scss';
 
 

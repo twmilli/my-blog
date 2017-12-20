@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet';
-import Header from '../pages/components/header.js';
-import BlogNav from '../pages/components/blog-nav.js';
+import Header from '../components/header.js';
+import BlogNav from '../components/blog-nav.js';
 
 import './index.scss'
 
@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children, location }) => {
   return (
     <div>
       <Helmet
-        title="Gatsby Default Starter"
+        title="Taylor Milliman"
         meta={[
           { name: 'description', content: 'Sample' },
           { name: 'keywords', content: 'sample, something' },

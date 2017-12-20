@@ -2,7 +2,7 @@
 path: "/first-dev-job-interview"
 tag: "Tech"
 title:  "My advice for breaking into tech: FirstDevJob Interview"
-date:   2017-2-16
+date:   '2017-02-16'
 published: true
 ---
 

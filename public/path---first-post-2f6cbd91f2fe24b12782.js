@@ -1,0 +1,2 @@
+webpackJsonp([98749194253172],{302:function(t,o){t.exports={data:{markdownRemark:{html:"<h1>Hello!</h1>",frontmatter:{path:"/first-post",title:"First Blog Post"}}},pathContext:{}}}});
+//# sourceMappingURL=path---first-post-2f6cbd91f2fe24b12782.js.map

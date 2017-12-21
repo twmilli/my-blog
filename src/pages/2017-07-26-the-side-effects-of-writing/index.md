@@ -3,7 +3,7 @@ path: '/side-effects-of-writing'
 published: true
 title:  "The Side Effects of Writing"
 tag: 'Writing'
-date: 2017-07-26
+date: 2017-7-26
 ---
 People write for different reasons.
 

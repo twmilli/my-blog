@@ -1,7 +1,7 @@
 ---
 path: '/interning-in-sf-week-1'
 title:  "I survived my first week! (Interning in San Francisco Week 1)"
-date: 2017-06-04
+date: 2017-6-04
 published: true
 tag: 'Life'
 ---

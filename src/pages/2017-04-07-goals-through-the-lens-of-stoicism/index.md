@@ -1,7 +1,7 @@
 ---
 path: '/goals-through-stoicism'
 title:  "Goals through the lens of stoicism"
-date:   2017-04-07
+date:   2017-4-07
 published: true
 tag: 'Philosophy'
 ---

@@ -2,7 +2,7 @@
 tag: 'Tech'
 title:  "After building my first React Native app, I’m now convinced it’s the future."
 published: true
-date:   2017-05-11
+date:   2017-5-11
 path: '/react-native-is-the-future'
 ---
 

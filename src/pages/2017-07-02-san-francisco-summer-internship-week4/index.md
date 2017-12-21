@@ -3,7 +3,7 @@ path: '/interning-in-sf-week-4'
 title:  "Escape rooms, Internapalooza, Pride parade and so much more (Interning in San Francisco Week 4)"
 tag: 'Life'
 published: true
-date: 2017-07-02
+date: 2017-7-02
 ---
 
 ![Braintree Pride](./braintreepride.jpg)

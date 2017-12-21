@@ -3,7 +3,7 @@ path: '/founder-market-fit'
 tag: 'Business'
 title:  "Founder-Market Fit"
 published: true
-date: 2017-07-27
+date: 2017-7-27
 ---
 When people talk about starting a business, everyone talks about product-market fit.  Does you product satisfy a desire for a group of potential customers?
 

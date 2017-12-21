@@ -31,7 +31,7 @@ const BlogNav = (props) => {
         <div className='Navigation-blog'>
         <div className='Navigation-blog-body'>
             <nav className="Navigation-blog-left">
-                <Link to={typeof window !== 'undefined' ? window.prev : '/blog'} activeStyle = {{ color: '#415469' }}>
+                <Link to='/blog' activeStyle = {{ color: '#415469' }}>
                 <ArrowLeft className='arrow-back'/>
                 <div id='back'>Back to Blog</div>
                 </Link>

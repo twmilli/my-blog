@@ -2,7 +2,7 @@
 path: "/it-doesnt-have-to-be-fun"
 tag: "philosphy"
 title:  "It Doesn't Have To Be Fun"
-date:   2017-01-30
+date:   2017-1-30
 published: true
 ---
 

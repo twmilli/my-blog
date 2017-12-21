@@ -1,7 +1,7 @@
 ---
 path: '/on-debugging'
 title:  "On Debugging"
-date:   2017-03-31
+date:   2017-3-31
 published: true
 tag: 'Tech'
 ---

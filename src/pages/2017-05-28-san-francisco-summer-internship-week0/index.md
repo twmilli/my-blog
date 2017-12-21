@@ -1,7 +1,7 @@
 ---
 path: '/interning-in-sf-week-0'
 title:  "Life as an intern in San Francisco (Week 0)"
-date: 2017-05-28
+date: 2017-5-28
 tag: 'Life'
 published: true
 ---

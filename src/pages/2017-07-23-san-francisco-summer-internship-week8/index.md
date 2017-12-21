@@ -3,7 +3,7 @@ path: '/interning-in-sf-week-8'
 title:  "Life thoughts and Unconventional Career Advice (Interning in San Francisco Week 8)"
 tag: 'Career'
 published: true
-date: 2017-07-23
+date: 2017-7-23
 ---
 
 ![beach](beach.jpg)

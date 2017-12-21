@@ -67,7 +67,7 @@ query IndexBlogQuery {
             frontmatter {
               title
               path
-              date(formatString: "MM-DD-YYYY")
+              date
               tag
             }
           }

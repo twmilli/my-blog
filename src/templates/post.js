@@ -3,11 +3,12 @@ import Helmet from 'react-helmet';
 import dateFormat from 'dateformat';
 import EmailNewsletter from '../pages/components/email-newsletter.js';
 import BlogNav from '../pages/components/blog-nav.js';
+import dateToString from '../../util/dateToString.js';
 import './post.scss';
 
 export default function Template(props) {
     const { markdownRemark: post } = props.data;
-    const dString = dateFormat(new Date(post.frontmatter.date), "mmmm dS, yyyy");
+    const dString = dateToString(post.frontmatter.date);
     return (
         <div>
             <BlogNav />
@@ -34,7 +35,7 @@ export const postQuery = graphql`
             frontmatter {
                 path
                 title
-                date(formatString: "MM-DD-YYYY")
+                date
                 tag
             }
         }

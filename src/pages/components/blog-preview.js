@@ -2,13 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './blog-preview.scss';
 import { ArrowRight } from 'react-feather';
-import dateFormat from 'dateformat';
-
-const dateToString = (date) => {
-    if (date !== 'undefined'){
-        return (dateFormat(new Date(date), "mmmm dS, yyyy"));
-    }
-}
+import dateToString from '../../../util/dateToString.js';
 
 const BlogPreview = (props) => (
     <div className="blog-preview-container">
@@ -17,7 +11,7 @@ const BlogPreview = (props) => (
         <div className="blog-date">{dateToString(props.date)}</div>
         <div className="blog-preview">{props.excerpt}</div>
         <div className="read-more-container">
-            <Link to={props.path} className="read-more-link" onClick={((e) => {window.prev = location.pathname})}>
+            <Link to={props.path} className="read-more-link">
                 Read more
                 <ArrowRight className='read-arrow'/>
             </Link>

@@ -3,7 +3,7 @@ path: '/nobody-knows-what-theyre-doing'
 title:  "Nobody Knows What They're Doing"
 tag: 'Thoughts'
 published: true
-date: 2017-07-25
+date: 2017-7-25
 ---
 
 The more I learn, about anything, the more I realize that no one actually knows what they're doing.

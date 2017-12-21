@@ -1,7 +1,7 @@
 ---
 path: '/cold-showers-and-appreciation'
 title:  "Cold Showers and Appreciation"
-date: 2017-04-03
+date: 2017-4-03
 tag: 'Thoughts'
 published: true
 ---

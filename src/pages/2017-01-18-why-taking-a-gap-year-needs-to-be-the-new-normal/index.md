@@ -2,7 +2,7 @@
 path: "/gap-year"
 tag: "Life"
 title:  "Why Taking A Gap Year Needs To Be The New Normal"
-date:   2017-01-18
+date:   2017-1-18
 published: true
 ---
 

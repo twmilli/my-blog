@@ -1,7 +1,7 @@
 ---
 title: 'The incentives of advertising'
 tag: 'Business'
-date: '2017-12-10'
+date: '2017-12-20'
 path: '/incentives-of-advertising'
 published: true
 ---

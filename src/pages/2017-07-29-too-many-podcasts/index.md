@@ -1,9 +1,9 @@
 ---
+date: 2017-7-29
 path: '/too-many-podcasts'
 tag: 'Thoughts'
 title:  "Too many podcasts"
 published: true
-date: 2017-7-29
 ---
 There's way too many podcasts.  There's too many conferences, too many businesses, too many blogs.  Everyone wants to start their own thing.
 

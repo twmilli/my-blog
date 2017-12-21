@@ -1,0 +1,95 @@
+$text-color: #42556A;
+$purple-accent: #8000FF;
+$light-accent: #92A1B1;
+$default-margin: 2.2rem;
+
+.about-page-container{
+    .Navigation{
+        background-color: white;
+        height: 6.2rem;
+    }
+}
+
+.about-page-banner{
+    z-index: 10;
+    margin-top: -1.2rem;
+    height: 100vh;
+}
+
+.about-cover{
+    background: rgba(255,255,255,0.85);
+    color: $text-color;
+    margin-bottom: 5rem;
+    padding: 2rem 16rem;
+
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+    p{
+        line-height: 1.5em;
+        font-size: 16px;
+    }
+
+    a, a:visited{
+        text-decoration: underline;
+        color: $text-color;
+        transition: color 300ms, text-decoration 300ms ease-in;
+  
+        &:hover{
+            color: $purple-accent;
+            text-decoration: underline;
+        }
+    }
+
+}
+
+.about-page-banner:after{
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0)),url(../img/tahoe-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 98% 46%;
+    background-attachment: fixed;
+}
+
+@media(max-width: 1024px){
+    .about-page-container{
+        .Navigation{
+            height: 8.5rem;
+        }
+    }
+
+    .about-cover{
+        padding: 2rem 4rem;
+    }
+}
+
+@media(max-width: 640px){
+    .about-cover{
+        padding: 2rem 1rem;
+
+        h2{
+            font-size: 30px;
+        }
+    
+        h3{
+            font-size: 22px;
+        }
+        p{
+            line-height: 1.5em;
+            font-size: 14px;
+        }
+    }
+}

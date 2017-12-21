@@ -4,11 +4,17 @@ import './blog-preview.scss';
 import { ArrowRight } from 'react-feather';
 import dateFormat from 'dateformat';
 
+const dateToString = (date) => {
+    if (date !== 'undefined'){
+        return (dateFormat(new Date(date), "mmmm dS, yyyy"));
+    }
+}
+
 const BlogPreview = (props) => (
     <div className="blog-preview-container">
         <div className="blog-tag">{props.tag}</div>
         <h2 className="blog-title">{props.title}</h2>
-        <div className="blog-date">{dateFormat(new Date(props.date), "mmmm dS, yyyy")}</div>
+        <div className="blog-date">{dateToString(props.date)}</div>
         <div className="blog-preview">{props.excerpt}</div>
         <div className="read-more-container">
             <Link to={props.path} className="read-more-link" onClick={((e) => {window.prev = location.pathname})}>

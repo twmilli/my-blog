@@ -8,10 +8,12 @@ import BlogNav from '../pages/components/blog-nav.js';
 import './index.scss'
 
 const TemplateWrapper = ({ children, location }) => {
-  let header = <BlogNav />
-  const paths = ['/', '/blog', '/about', '/portfolio', '/reading']
-  if (paths.includes(location.pathname) || location.pathname.startsWith('/blog')){
-    header = <Header />
+  let header = null;
+  const paths = ['/', '/blog', '/portfolio', '/reading']
+  if (typeof location !== undefined){
+    if (paths.includes(location.pathname) || location.pathname.startsWith('/blog')){
+      header = <Header />
+    }
   }
   return (
     <div>

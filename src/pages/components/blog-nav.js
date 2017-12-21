@@ -9,7 +9,6 @@ import {
 import './blog-nav.scss';
 
 const BlogNav = (props) => {
-    console.log(props);
     const { 
         FacebookShareButton,
         LinkedinShareButton,
@@ -23,12 +22,16 @@ const BlogNav = (props) => {
         TwitterShareCount,
         RedditShareCount
     } = ShareCounts;
-    const url = window.location.href;
+    let url = null;
+
+    if (typeof window !== 'undefined'){
+        url = window.location.href;
+    }
     return(
         <div className='Navigation-blog'>
         <div className='Navigation-blog-body'>
             <nav className="Navigation-blog-left">
-                <Link to={window.prev} activeStyle = {{ color: '#415469' }}>
+                <Link to={typeof window !== 'undefined' ? window.prev : '/blog'} activeStyle = {{ color: '#415469' }}>
                 <ArrowLeft className='arrow-back'/>
                 <div id='back'>Back to Blog</div>
                 </Link>

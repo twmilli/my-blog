@@ -1,27 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import { ArrowLeft, Facebook } from 'react-feather';
-import {
-    ShareButtons,
-    ShareCounts,
-    generateShareIcon
-  } from 'react-share';
+import { ShareButtons } from 'react-share';
 import './blog-nav.scss';
 
 const BlogNav = (props) => {
-    const { 
-        FacebookShareButton,
-        LinkedinShareButton,
-        TwitterShareButton,
-        RedditShareButton
-    } = ShareButtons;
+    const { FacebookShareButton } = ShareButtons;
 
-    const { 
-        FacebookShareCount,
-        LinkedinShareCount,
-        TwitterShareCount,
-        RedditShareCount
-    } = ShareCounts;
     let url = null;
 
     if (typeof window !== 'undefined'){

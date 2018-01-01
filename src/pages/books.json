@@ -1,6 +1,18 @@
 {
 "read": [
     {
+        "title": "Extremely Loud and Incredibly Close",
+        "link": "http://a.co/afeY7HL",
+        "author": "Jonathan Safran Foer",
+        "date": "12-2017"
+    },
+    {
+        "title": "Whiskey Tango Foxtrot",
+        "link": "http://a.co/e5j6uqx",
+        "author": "David Shafer",
+        "date": "12-2017"
+    },
+    {
         "title": "The Prophet",
         "link": "http://a.co/7LMYQC8",
         "author": "Kahlil Gibran",
@@ -125,7 +137,7 @@
         "title": "Deep Work",
         "link": "http://a.co/ai87PZy",
         "author": "Cal Newport",
-        "date": "11-2017"
+        "date": "11-2016"
     },
     {
         "title": "Give and Take",
@@ -246,14 +258,8 @@
     {
         "title": "The Art of Fielding",
         "link": "http://a.co/jdeuLfp",
-        "author": "Chad Harbach "
-    },
-    {
-        "title": "Whiskey Tango Foxtrot",
-        "link": "http://a.co/e5j6uqx",
-        "author": "David Shafer"
+        "author": "Chad Harbach"
     }
-
 ],
 
 "to_read": [

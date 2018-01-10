@@ -22,5 +22,6 @@ def main():
 def pad_zero(n):
     if n < 10:
         return "0" + str(n)
+    return str(n)
 if __name__ == "__main__":
     main()

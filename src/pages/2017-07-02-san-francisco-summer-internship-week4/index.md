@@ -74,12 +74,6 @@ On Thursday, I did my first escape room as part of a Braintree intern event.
 
 It's pretty insane the experience that the owners of [Reason](https://www.tryreason.com/) have been able to create.  I would definitely recommend checking if out if you're with a big group and appreciate puzzles and cool technologies.
 
-<div class="row post-image-bg" markdown="0">
-    <video width="99%" height="540" autoplay loop muted markdown="0">
-        <source src="./reason_video.mp4" type="video/mp4" markdown="0" >
-    </video>
-</div>
-
 #### Post Escape Room Victory Dance
 
 We solved it, but admittedly about a minute or two over the 80 minute time limit.

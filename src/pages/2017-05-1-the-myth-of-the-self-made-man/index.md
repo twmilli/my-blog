@@ -2,7 +2,7 @@
 path: '/myth-of-the-self-made-man'
 title:  "The Myth of the Self-made Man"
 published: true
-date:   2017-5-1
+date:   '2017-05-01'
 tag: 'Philosophy'
 ---
 

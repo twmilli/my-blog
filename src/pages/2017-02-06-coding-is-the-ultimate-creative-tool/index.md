@@ -2,7 +2,7 @@
 path: "/coding-is-the-ultimate-tool"
 tag: "Tech"
 title:  "Coding is The Ultimate Creative Tool"
-date:   2017-2-06
+date:   '2017-02-06'
 published: true
 ---
 ![alt text](./creativecodingbanner.jpeg)

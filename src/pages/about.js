@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.scss';
-import Header from './components/header.js';
+import Header from '../components/header.js';
 import Link from 'gatsby-link';
 
 const About = () => (

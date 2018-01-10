@@ -11,12 +11,12 @@ exports.createPages = ({boundActionCreators, graphql}) => {
             sort: { order: DESC, fields: [frontmatter___date] }) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(pruneLength: 300)
                 id
                 frontmatter {
                   title
                   path
-                  date
+                  date(formatString: "YYYY-MM-DD")
                   tag
                 }
               }
@@ -27,18 +27,24 @@ exports.createPages = ({boundActionCreators, graphql}) => {
         if(res.errors) {
             return Promise.reject(res.errors);
         }
+        const posts = res.data.allMarkdownRemark.edges;
         createPaginatedPages({
-            edges: res.data.allMarkdownRemark.edges,
+            edges: posts,
             createPage: createPage,
-            pageTemplate: "src/templates/index.js",
+            pageTemplate: "src/templates/blog.js",
             pageLength: 10,
             pathPrefix: "blog"
         })
-
-        res.data.allMarkdownRemark.edges.forEach(({node}) => {
-           createPage({
-               path: node.frontmatter.path,
-               component: postTemplate
+        posts.forEach(({node}, index) => {
+            const prev = index === 0 ? false : posts[index-1].node;
+            const next = index === posts.length - 1 ? false: posts[index + 1];
+            createPage({
+                path: node.frontmatter.path,
+                component: postTemplate,
+                context: {
+                   prev,
+                   next
+               }
            }) 
         });
     });

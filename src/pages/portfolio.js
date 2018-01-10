@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioView from './components/portfolio-view.js';
+import PortfolioView from '../components/portfolio-view.js';
 import { Github } from 'react-feather';
 import './portfolio.scss';
 import resume from './taylor-milliman-resume.pdf';

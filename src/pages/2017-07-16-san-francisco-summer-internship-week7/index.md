@@ -3,7 +3,7 @@ path: '/interning-in-sf-week-6-and-7'
 title:  "High-end coffee, luck, and a trip to Lassen National Park (Interning in San Francisco Week 6 & 7)"
 tag: 'Life'
 published: true
-date: 2017-7-16
+date: '2017-07-16'
 ---
 
 Alright I admit it.  I didn't write last week, but you wouldn't want me to spend too

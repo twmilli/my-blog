@@ -1,7 +1,7 @@
 ---
 path: '/nick-gilson-on-innocation'
 title:  "What Nick Gilson can teach us about failure and innovation"
-date: 2017-4-09
+date: '2017-04-09'
 tag: 'Business'
 published: true
 ---

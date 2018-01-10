@@ -18,12 +18,16 @@ $default-margin: 2.2rem;
   max-width: 800px;
   margin: auto;
 
-  time.date{
+  .date{
     display: block;
     text-align: center;
     color: $light-accent;
     font-size: 16px;
     margin-bottom: 4rem;
+    span,time{
+      display: block;
+      margin: 0.5rem;
+    }
   }
 
   a, a:visited{
@@ -73,9 +77,11 @@ $default-margin: 2.2rem;
   }
 
   blockquote{
-    margin-top: 40px;
-    font-size: 1.5rem;
-    margin-bottom: 40px;
+    p{
+      margin-top: 40px;
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+    }
   }
 
 }
@@ -107,9 +113,9 @@ $default-margin: 2.2rem;
       margin-left: auto;
       margin-right: auto;
     }
-    time.date{
+    .date{
       font-size: 14px;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -124,6 +130,13 @@ $default-margin: 2.2rem;
     }
     time.date{
       margin-bottom: 0;
+    }
+    blockquote{
+      p{
+        margin-top: 20px;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+      }
     }
   }
 }

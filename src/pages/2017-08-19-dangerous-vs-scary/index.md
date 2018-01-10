@@ -3,7 +3,7 @@ path: '/dangerous-vs-scary'
 tag: 'Thoughts'
 title:  "Dangerous vs. Scary"
 published: true
-date: 2017-8-19
+date: '2017-08-19'
 ---
 For most people, their first time rock climbing is scary.  But as long as you're doing it properly it's actually quite safe.
 

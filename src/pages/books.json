@@ -1,6 +1,24 @@
 {
 "read": [
     {
+        "title": "Unshakeable",
+        "link": "http://a.co/himLyto",
+        "author": "Tony Robbins",
+        "date": "1-2018"
+    },
+    {
+        "title": "Hillbilly Elegy",
+        "link": "http://a.co/fgWaJl6",
+        "author": "J. D. Vance",
+        "date": "1-2018"
+    },
+    {
+        "title": "Warcross",
+        "link": "http://a.co/6UqjwIV",
+        "author": "Marie Lu",
+        "date": "1-2018"
+    },
+    {
         "title": "Extremely Loud and Incredibly Close",
         "link": "http://a.co/afeY7HL",
         "author": "Jonathan Safran Foer",
@@ -183,13 +201,13 @@
     },
     {
         "title": "The Game",
-        "link": "http://a.co/27UCMBQ",
+        "link": "http://a.co/iDh2pqV",
         "author": "Neil Strauss",
         "date": "6-2016"
     },
     {
         "title": "Zeitoun",
-        "link": "http://a.co/27UCMBQ",
+        "link": "http://a.co/cqNrqYq",
         "author": "Dave Eggers",
         "date": "5-2016"
     },
@@ -259,6 +277,16 @@
         "title": "The Art of Fielding",
         "link": "http://a.co/jdeuLfp",
         "author": "Chad Harbach"
+    },
+    {
+        "title": "Superforecasting: The Art and Science of Prediction ",
+        "link": "http://a.co/bwrxABX",
+        "author": "Philip E. Tetlock et al."
+    },
+    {
+        "title": "Into the Wild",
+        "link": "http://a.co/6QWohnN",
+        "author": "Jon Krakauer"
     }
 ],
 

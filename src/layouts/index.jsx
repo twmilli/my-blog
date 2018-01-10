@@ -7,7 +7,7 @@ import './index.scss';
 
 const TemplateWrapper = ({ children, location }) => {
   let header = null;
-  const paths = ['/', '/blog', '/portfolio', '/reading'];
+  const paths = ['/', '/blog', '/portfolio', '/reading', '/portfolio/', '/reading/'];
   if (typeof location !== 'undefined') {
     if (paths.includes(location.pathname) || location.pathname.startsWith('/blog')) {
       header = <Header />;
@@ -15,13 +15,7 @@ const TemplateWrapper = ({ children, location }) => {
   }
   return (
     <div>
-      <Helmet
-        title="Taylor Milliman"
-        meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
-        ]}
-      />
+      {header !== null ? <Helmet title="Taylor Milliman" /> : null}
       {header}
       <div>
         {children()}
@@ -32,7 +26,6 @@ const TemplateWrapper = ({ children, location }) => {
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func.isRequired,
-  location: PropTypes.string.isRequired,
 };
 
 export default TemplateWrapper;

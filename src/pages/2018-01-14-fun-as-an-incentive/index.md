@@ -2,7 +2,7 @@
 tag: 'Thoughts'
 title: 'Fun As An Incentive'
 published: true
-date: '2018-01-13'
+date: '2018-01-14'
 path: '/fun-as-an-incentive'
 ---
 

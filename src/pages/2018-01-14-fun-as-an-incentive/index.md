@@ -10,8 +10,8 @@ path: '/fun-as-an-incentive'
 
 Are people just dumb?  Or was I missing something.  I think many people are truly not very informed when it comes to finances, but that doesn't tell the story.
 
->> "Never, ever, think about something else when you should be thinking about the power of incentives"
->>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp\- Charlie Munger
+>> "Never, ever, think about something else when you should be thinking about the power of incentives"<br/>
+>>\- Charlie Munger
 
 The explanation my father offered was simple, yet compelling.  "Many people find buying individual stocks more fun".  As children, fun is one of the only incentives we respond to, are parents are well aware of this.  As we grow older, we often forget about fun, and replace it with incentives centered around time and money.
 

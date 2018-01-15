@@ -6,7 +6,7 @@ date: '2018-01-15'
 path: '/breaking-the-streak'
 ---
 
-I few days ago, I missed my first post after deciding to start publishing daily.  Only 10 days in.
+A few days ago, I missed my first post after deciding to start publishing daily.  Only 10 days in.
 
 I was in Cape Cod with friends, didn't want to take any time away to write, and didn't have any posts scheduled.
 

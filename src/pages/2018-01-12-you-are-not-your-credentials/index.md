@@ -2,7 +2,7 @@
 tag: 'Life'
 title: 'You Are Not Your Credentials'
 published: true
-date: '2018-01-11'
+date: '2018-01-12'
 path: '/you-are-not-your-credentials'
 ---
 

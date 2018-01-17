@@ -13,11 +13,10 @@ Want to learn something?  The options are endless.  YouTube, Podcasts, Medium Ar
 >>"A wealth of information creates a poverty of attention" <br/>
 >> -Herbert A. Simon
 
-In this new age of media at our finger tips, it's easy to feel overwhelmed.  There is always something new to learn, a news article, or an episode of our favorite podcast to consume.  We're consuming more content than ever before, but what are we actually learning from it.
+In this new age of media at our fingertips, it's easy to feel overwhelmed.  There is always something new to learn, a news article, or an episode of our favorite podcast to consume.  We're consuming more content than ever before, but what are we actually learning from it.
 
 Sometimes, I think the solution is to be more mindful and limit our consumption habits.  Tim Ferriss has coined the term [low information diet](https://tim.blog/category/low-information-diet-and-selective-ignorance/) for this practice.
 
-More often however, I think the feeling of overwhelm comes from consuming all of this information, and not doing anything with it.
+More often, however, I think the feeling of overwhelming comes from consuming all of this information, and not doing anything with it.
 
 Maybe we're not consuming too much, but rather creating too little.
-

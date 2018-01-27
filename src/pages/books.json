@@ -1,6 +1,18 @@
 {
 "read": [
     {
+        "title": "Chaos Monkeys",
+        "link": "http://a.co/drocqfP",
+        "author": "Antonio Garcia Martinez",
+        "date": "1-2018"
+    },
+    {
+        "title": "Superforecasting: The Art and Science of Prediction",
+        "link": "http://a.co/bwrxABX",
+        "author": "Philip E. Tetlock et al.",
+        "date": "1-2018"
+    },
+    {
         "title": "Unshakeable",
         "link": "http://a.co/himLyto",
         "author": "Tony Robbins",
@@ -274,20 +286,16 @@
 ],
 "reading": [
     {
-        "title": "The Art of Fielding",
-        "link": "http://a.co/jdeuLfp",
-        "author": "Chad Harbach"
-    },
-    {
-        "title": "Superforecasting: The Art and Science of Prediction ",
-        "link": "http://a.co/bwrxABX",
-        "author": "Philip E. Tetlock et al."
-    },
-    {
         "title": "Into the Wild",
         "link": "http://a.co/6QWohnN",
         "author": "Jon Krakauer"
+    },
+    {
+        "title": "Boomerang",
+        "link": "http://a.co/7KFqeIW",
+        "author": "Michael Lewis"
     }
+
 ],
 
 "to_read": [

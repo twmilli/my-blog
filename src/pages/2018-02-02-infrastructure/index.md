@@ -14,7 +14,11 @@ After talking to others and convincing myself that my idea had potential, I star
 
 But often times I have to fight this feeling to move as fast as possible.  Spending the extra time to set up [ESlint](https://eslint.org/) and making a list of tasks in [Trello](https://trello.com/) goes against my first instinct.  Building these systems early on in a project can give you the stability to move fast later on.
 
-I think infrastructure is often underappreciated....or at least by me.  The average person on the street has never heard of [React](https://reactjs.org/).  But Airbnb, Lyft, Facebook, and Twitter all use the React.js framework heavily.  The engineers that built this framework that is now used by companies and developers across the globe have had a far larger impact than they could have by building features for a single website or company.
+Meditation is a form of infrastructure for our daily lives.  It has no immediate benefit, but consistent practice can help us to be happier and work more efficiently in the long-term.
+
+I think infrastructure is often underappreciated....or at least by me.  I use moving quickly as an excuse for short sighted thinking. Can you spend too much time on infrastructure?  Sure.  In the early stages of an experimental technology project, I'm not sure testing your code makes sense.  Your time would likely be better spent getting your product to market to see if it even something that people want.
+
+The average person on the street has never heard of [React](https://reactjs.org/).  But Airbnb, Lyft, Facebook, and Twitter all use the React.js framework heavily.  The engineers that built this framework which is now used by companies and developers across the globe have had a far larger impact than they could have by building features for a single website or company.
  
 >>"You can mine gold or you can sell pickaxes"
 

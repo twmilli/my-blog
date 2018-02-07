@@ -1,6 +1,18 @@
 {
 "read": [
     {
+        "title": "Go",
+        "link": "http://a.co/1idWswP",
+        "author": "Kaneshiro, Kazuki",
+        "date": "2-2018"
+    },
+    {
+        "title": "Boomerang",
+        "link": "http://a.co/7KFqeIW",
+        "author": "Michael Lewis",
+        "date": "2-2018"
+    },
+    {
         "title": "Chaos Monkeys",
         "link": "http://a.co/drocqfP",
         "author": "Antonio Garcia Martinez",
@@ -286,14 +298,9 @@
 ],
 "reading": [
     {
-        "title": "Into the Wild",
-        "link": "http://a.co/6QWohnN",
-        "author": "Jon Krakauer"
-    },
-    {
-        "title": "Boomerang",
-        "link": "http://a.co/7KFqeIW",
-        "author": "Michael Lewis"
+        "title": "Mastering Bitcoin",
+        "link": "http://a.co/aAI74CM",
+        "author": "Andreas M. Antonopoulos"
     }
 
 ],

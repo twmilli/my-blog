@@ -1,5 +1,18 @@
 {
 "read": [
+   
+    {
+        "title": "Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue ",
+        "link": "http://a.co/jaOgdUO",
+        "author": "Ryan Holiday",
+        "date": "3-2018"
+    },
+    {
+        "title": "Sous Chef: 24 Hours on the Line",
+        "link": "http://a.co/j12dseB",
+        "author": "Michael Gibney",
+        "date": "3-2018"
+    },
     {
         "title": "Go",
         "link": "http://a.co/1idWswP",
@@ -301,16 +314,22 @@
         "title": "Mastering Bitcoin",
         "link": "http://a.co/aAI74CM",
         "author": "Andreas M. Antonopoulos"
+    },
+    {
+        "title": "Creativity, Inc.",
+        "link": "http://a.co/96myPHt",
+        "author": "Ed Catmull et al."
+    },
+    {
+        "title": "Sourdough",
+        "link": "http://a.co/3qfcNjW",
+        "author": "Robin Sloan"
     }
+
 
 ],
 
 "to_read": [
-    {
-        "title": "Sourdough",
-        "link": "http://a.co/duGmkVS",
-        "author": "Robin Sloan"
-    },
     {
         "title": "Radical Acceptance",
         "link": "http://a.co/hnDPGFH",

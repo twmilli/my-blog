@@ -1,6 +1,11 @@
 {
 "read": [
-   
+    {
+        "title": "Sourdough",
+        "link": "http://a.co/3qfcNjW",
+        "author": "Robin Sloan",
+        "date": "3-2018"
+    },
     {
         "title": "Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue ",
         "link": "http://a.co/jaOgdUO",
@@ -316,17 +321,10 @@
         "author": "Andreas M. Antonopoulos"
     },
     {
-        "title": "Creativity, Inc.",
-        "link": "http://a.co/96myPHt",
-        "author": "Ed Catmull et al."
-    },
-    {
-        "title": "Sourdough",
-        "link": "http://a.co/3qfcNjW",
-        "author": "Robin Sloan"
+        "title": "Antifragile: Things That Gain from Disorder",
+        "link": "http://a.co/0pLKQK4",
+        "author": "Nassim Nicholas Taleb"
     }
-
-
 ],
 
 "to_read": [

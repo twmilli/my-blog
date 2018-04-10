@@ -1,6 +1,12 @@
 {
 "read": [
     {
+        "title": "Antifragile: Things That Gain from Disorder",
+        "link": "http://a.co/0pLKQK4",
+        "author": "Nassim Nicholas Taleb",
+        "date": "4-2018"
+    },
+    {
         "title": "Sourdough",
         "link": "http://a.co/3qfcNjW",
         "author": "Robin Sloan",
@@ -321,9 +327,9 @@
         "author": "Andreas M. Antonopoulos"
     },
     {
-        "title": "Antifragile: Things That Gain from Disorder",
-        "link": "http://a.co/0pLKQK4",
-        "author": "Nassim Nicholas Taleb"
+        "title": "A Random Walk down Wall Street",
+        "link": "http://a.co/bJDoOM1",
+        "author": "Burton G. Malkiel"
     }
 ],
 
@@ -355,4 +361,3 @@
     }
 ]
 }
-

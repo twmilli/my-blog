@@ -11,13 +11,22 @@ $default-margin: 2.2rem;
     }
     li{
         margin: 1rem;
+    }
 
-        a{
-          color: $purple-accent - 25;
-        }
+    a{
+        color: $purple-accent - 25;
+      }
 
-        a:hover{
-            text-decoration: underline;
-        }
+      a:hover{
+          text-decoration: underline;
+      }
+
+      .read-container{
+          margin-top: $default-margin;
+      }
+    
+    .goodreads-link{
+        padding: 0 5px;
+        display: block;
     }
 }

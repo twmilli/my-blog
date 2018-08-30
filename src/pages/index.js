@@ -8,11 +8,11 @@ import EmailNewsletter from '../components/email-newsletter.js';
 const IndexPage = () => (
   <div className="index-container">
     <div className="banner">
-      <img src={banner} alt="banner"/>
+      <img src="https://s3.amazonaws.com/noschool.io/taylorbanner.png" alt="banner" />
       <div className="overlay quote">
       Create something everyday.
       </div>
-      <Link to='/blog' className="overlay blog-btn">BLOG</Link>
+      <Link to="/blog" className="overlay blog-btn">BLOG</Link>
     </div>
     <div className="icon-container">
       <a href="https://github.com/twmilli" target="_blank">
@@ -35,11 +35,11 @@ const IndexPage = () => (
       </a>
     </div>
 
-    <div id='newsletter-heading'>
+    <div id="newsletter-heading">
       Sign up for my weekly newsletter
     </div>
     <EmailNewsletter />
   </div>
-)
+);
 
 export default IndexPage;

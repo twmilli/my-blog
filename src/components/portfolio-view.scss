@@ -12,6 +12,7 @@ $default-margin: 2.2rem;
         height: 535px;
         font-size: 26px;
         margin-left: 1.6rem;
+        width: wrap;
     
         span{
             margin-top: 8px;
@@ -27,11 +28,6 @@ $default-margin: 2.2rem;
         .portfolio-project-link:hover{
             cursor: pointer;
             color: $purple-accent !important;
-
-            span{
-                animation: underline1 600ms ease-in-out;
-                width: 100%;
-           }
         }
     }
 }
@@ -57,15 +53,6 @@ $default-margin: 2.2rem;
         img:hover{
             filter: brightness(60%);
         }
-    }
-}
-
-@keyframes underline1 {
-    from {
-        width: 0%;
-    }
-    to{
-        width: 100%;
     }
 }
 

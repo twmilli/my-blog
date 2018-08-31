@@ -14,9 +14,9 @@ export default function Template(props) {
       <BlogNav />
       <Helmet>
         <title>{post.frontmatter.seotitle !== null ? post.frontmatter.seotitle : post.frontmatter.title}</title>
-        <meta property="description" content={post.excerpt} />
-        <meta property="keywords" content={post.frontmatter.tag} />
-        <meta property="og:title" content={post.frontmatter.hasOwnProperty('seotitle') ? post.frontmatter.seotitle : post.frontmatter.title} />
+        <meta property="description" content={post.frontmatter.seodesc !== null ? post.frontmatter.seodesc : post.excerpt} />
+        <meta property="keywords" content={post.frontmatter.keywords !== null ? post.frontmatter.keywords : post.frontmatter.tag} />
+        <meta property="og:title" content={post.frontmatter.seotitle !== null ? post.frontmatter.seotitle : post.frontmatter.title} />
       </Helmet>
       <div className="post">
         <div className="post-container">
@@ -49,6 +49,8 @@ export const postQuery = graphql`
                 date
                 tag
                 seotitle
+                seodesc
+                keywords
             }
         }
     }

@@ -69,7 +69,6 @@ query IndexBlogQuery {
               path
               date
               tag
-              seotitle
             }
           }
         }

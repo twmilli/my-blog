@@ -2,6 +2,7 @@
 tag: 'Life'
 title: '23'
 seotitle: '3 lessons I learned in year 23'
+keywords: 'lifelessons year 23'
 published: true
 date: '2018-08-24'
 path: '/23'

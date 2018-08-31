@@ -13,7 +13,7 @@ export default function Template(props) {
     <div>
       <BlogNav />
       <Helmet>
-        <title>{post.frontmatter.hasOwnProperty('seotitle') ? post.frontmatter.seotitle : post.frontmatter.title}</title>
+        <title>{post.frontmatter.seotitle !== null ? post.frontmatter.seotitle : post.frontmatter.title}</title>
         <meta property="description" content={post.excerpt} />
         <meta property="keywords" content={post.frontmatter.tag} />
         <meta property="og:title" content={post.frontmatter.hasOwnProperty('seotitle') ? post.frontmatter.seotitle : post.frontmatter.title} />

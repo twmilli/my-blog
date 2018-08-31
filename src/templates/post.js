@@ -49,7 +49,6 @@ export const postQuery = graphql`
                 date
                 tag
                 seotitle
-                seodesc
                 keywords
             }
         }

@@ -19,7 +19,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                   date(formatString: "YYYY-MM-DD")
                   tag
                   seotitle
-                  seodesc
                   keywords
                 }
               }

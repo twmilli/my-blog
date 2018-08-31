@@ -3,7 +3,7 @@ import BlogPreview from '../components/blog-preview';
 import Link from 'gatsby-link';
 import './blog.scss';
 
-const NavLink = (props) => <Link to={props.url}>{props.text}</Link>;
+const NavLink = props => <Link to={props.url}>{props.text}</Link>;
 
 const BlogBottomNav = ({
   index, first, last, pageCount, pathPrefix,
@@ -15,12 +15,12 @@ const BlogBottomNav = ({
   return (
     <div className="blog-bottom-nav-container">
       <div className="nextLink">
-          {!first ? prev : null}
-        </div>
+        {!first ? prev : null}
+      </div>
       <div className="page">page {index} of {pageCount}</div>
       <div className="previousLink">
-          {!last ? next : null}
-        </div>
+        {!last ? next : null}
+      </div>
     </div>
   );
 };
@@ -44,12 +44,12 @@ const IndexPage = ({ data, pathContext }) => {
       {previewArray}
 
       <BlogBottomNav
-          index={index}
-          first={first}
-          last={last}
-          pageCount={pageCount}
-          pathPrefix={pathPrefix}
-        />
+        index={index}
+        first={first}
+        last={last}
+        pageCount={pageCount}
+        pathPrefix={pathPrefix}
+      />
 
     </div>
   );
@@ -69,6 +69,7 @@ query IndexBlogQuery {
               path
               date
               tag
+              seotitle
             }
           }
         }

@@ -8,14 +8,15 @@ import './post.scss';
 export default function Template(props) {
   const { markdownRemark: post } = props.data;
   const dateString = dateToString(post.frontmatter.date);
+  console.log(post.frontmatter);
   return (
     <div>
       <BlogNav />
       <Helmet>
-        <title>{post.frontmatter.title}</title>
+        <title>{post.frontmatter.hasOwnProperty('seotitle') ? post.frontmatter.seotitle : post.frontmatter.title}</title>
         <meta property="description" content={post.excerpt} />
         <meta property="keywords" content={post.frontmatter.tag} />
-        <meta property="og:title" content={post.frontmatter.title} />
+        <meta property="og:title" content={post.frontmatter.hasOwnProperty('seotitle') ? post.frontmatter.seotitle : post.frontmatter.title} />
       </Helmet>
       <div className="post">
         <div className="post-container">
@@ -32,7 +33,6 @@ export default function Template(props) {
           <EmailNewsletter />
         </div>
       </div>
-
     </div>
   );
 }
@@ -48,6 +48,7 @@ export const postQuery = graphql`
                 title
                 date
                 tag
+                seotitle
             }
         }
     }

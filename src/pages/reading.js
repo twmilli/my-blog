@@ -15,7 +15,7 @@ const compare = (a, b) => {
   } else if (a.rating < b.rating) {
     return 1;
   }
-  return 0;
+  return (a.date > b.date) ? -1 : (a.date < b.date) ? 1 : 0;
 };
 
 const Reading = () => {

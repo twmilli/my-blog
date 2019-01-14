@@ -1,6 +1,48 @@
 {
 "read": [
     {
+        "title": "Principles",
+        "link": "http://a.co/d/4f19gts",
+        "author":"Ray Dalio",
+        "date":"10-2018",
+        "rating": 6
+    },
+    {
+        "title": "The Elephant in the Brain: Hidden Motives in Everyday Life",
+        "link": "http://a.co/d/3BDLvjl",
+        "author":"Kevin Simler",
+        "date":"10-2018",
+        "rating": 9
+    },
+    {
+        "title": "The War on Normal People",
+        "link": "http://a.co/d/eMZPkPL",
+        "author":"Andrew Yang",
+        "date":"9-2018",
+        "rating": 9
+    },
+    {
+        "title": "Traction",
+        "link": "http://a.co/d/e5466EQ",
+        "author":"Gabriel Weinberg",
+        "date":"9-2018",
+        "rating": 10
+    },
+    {
+        "title": "Finding My Virginity",
+        "link": "http://a.co/d/exQ8237",
+        "author":"Richard Branson",
+        "date":"9-2018",
+        "rating": 6
+    },
+    {
+        "title": "Shantaram",
+        "link": "http://a.co/d/iSNZHok",
+        "author":"Gregory David Roberts",
+        "date":"9-2018",
+        "rating": 10
+    },
+    {
         "title": "Little Fires Everywhere",
         "link": "http://a.co/d/0lNluS6",
         "author":"Celeste Ng",

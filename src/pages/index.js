@@ -1,44 +1,33 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import './index.scss';
-import banner from '../img/banner.png';
-import { Github, Instagram, Mail, Facebook, Linkedin, Feather } from 'react-feather';
 import EmailNewsletter from '../components/email-newsletter.js';
 
 const IndexPage = () => (
   <div className="index-container">
-    <div className="banner">
-      <img src="https://s3.amazonaws.com/noschool.io/taylorbanner.png" alt="banner" />
-      <div className="overlay quote">
-      Create something everyday.
+    <div className="intro">
+      <h1>
+      Hi, I'm Taylor.
+      </h1>
+      <h2>
+      Currently, I'm a software engineer @
+        <a href="https://www.thumbtack.com/"> Thumbtack</a>.
+      </h2>
+      <div className="blurb"><span>Get my newsletter. </span>It features the absolute best of what I read each week, what I'm thinking about, and what I'm working on.
+        <EmailNewsletter />
+        We go down rabbit holes and tangents in a futile attempt to better understand the world.
       </div>
-      <Link to="/blog" className="overlay blog-btn">BLOG</Link>
     </div>
-    <div className="icon-container">
-      <a href="https://github.com/twmilli" target="_blank">
-        <Github />
-      </a>
-      <a href="https://www.instagram.com/taytaytrey/" target="_blank">
-        <Instagram />
-      </a>
-      <a href="mailto:twm013@bucknell.edu" target="_blank">
-        <Mail />
-      </a>
-      <a href="https://medium.com/@twm013" target="_blank">
-        <Feather />
-      </a>
-      <a href="https://www.facebook.com/taylor.milliman1" target="_blank">
-        <Facebook />
-      </a>
-      <a href="http://linkedin.com/taylor-milliman" target="_blank">
-        <Linkedin />
+    <blockquote className="quote">
+      Taylor's newsletter is so good, I would read it even if I wasn't obligated to.
+    </blockquote>
+    <blockquote>
+      <i>- My mom</i>
+    </blockquote>
+    <div className="blurb">
+      <a href="https://taylor.substack.com/">
+      Read the archives here.
       </a>
     </div>
-
-    <div id="newsletter-heading">
-      Sign up for my weekly newsletter
-    </div>
-    <EmailNewsletter />
   </div>
 );
 

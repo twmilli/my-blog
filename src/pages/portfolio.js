@@ -1,10 +1,10 @@
 import React from 'react';
-import PortfolioView from '../components/portfolio-view.js';
 import { Github } from 'react-feather';
+import PortfolioView from '../components/portfolio-view.js';
 import './portfolio.scss';
 import resume from './taylor-milliman-resume.pdf';
-const Portfolio = () => {
-    return(
+
+const Portfolio = () => (
         <div className="portfolio-container">
             <h1>Projects</h1>
             <PortfolioView/>
@@ -30,6 +30,5 @@ const Portfolio = () => {
             </div>
         </div>
     );
-}
 
 export default Portfolio;
